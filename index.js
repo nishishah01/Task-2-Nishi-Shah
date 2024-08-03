@@ -35,10 +35,7 @@ function displayWeather(data) {
     const weatherIcon = document.getElementById('weather-icon');
     const hourlyForecastDiv = document.getElementById('hourly-forecast');
     
-    if (!tempDivInfo || !weatherInfoDiv || !weatherIcon || !hourlyForecastDiv) {
-        console.error('One or more elements not found'); /*just in case any one of the above is missing*/
-        return;
-    }
+   
     
     weatherInfoDiv.innerHTML = '';
     hourlyForecastDiv.innerHTML = '';
